@@ -1,0 +1,49 @@
+<!--
+    NAME : shubham g0sain
+    DATE : August 13, 2020
+
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SEA DIVING</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <canvas id="canvas"></canvas>
+        <div id="first">
+            <h1 style="color:#F0ECEF">SEA DIVING</h1>
+            <p style="color:#1DCA04">Catch the coins and kill as many fish as possible !</p>
+            <p><i style="font-size:0.7em;color:#E90303">Be careful not to touch the mines and fish !</i></p>
+            <i class="fas fa-play-circle fa-4x"></i>
+        </div>
+        <div id="loader">LOADING<div id="bar"></div></div>
+        <div id="gameover">
+            <span id="outputgameover"></span><br>
+            <i class="fas fa-play-circle fa-2x" style="margin-top:30px"></i>
+        </div>
+        <div id="time">120</div>
+        <div id="cmdleft">
+            <div class="cmd up"><i class="fas fa-chevron-left"></i></div>
+            <div class="cmd down"><i class="fas fa-chevron-right"></i></div>
+        </div>
+        <div id="cmdright">
+            <div class="cmd btns power" id="btnpower"><i class="fas fa-power-off"></i></div>
+            <div class="cmd ca">X</div>
+
+        </div>
+        <img src="https://i.ibb.co/hBpfV79/gif.gif" id="imggif">
+        <div id="outputcoin">
+            <img src="https://i.ibb.co/QKpBHtv/token.png" id="imgcoin">
+            <span id="scorecoin">0</span>
+        </div>
+        <div id="outputfish">
+            <img src="https://i.ibb.co/kSGCLv0/pirana.png" id="imgfish">
+            <span id="scorefish">0</span>
+        </div>
+        <div id="outputlife">
+            <div id="barlife"></div>
+        </div>
+    </body>
+</html>
